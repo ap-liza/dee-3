@@ -1,0 +1,41 @@
+.sshop{
+    background: white;
+}
+.introo h1{
+    font-size: 30px;
+}
+#products-img{
+    max-width: 100%;
+    width: 500px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.products:hover{
+    animation: zooming 3s step-end;
+}
+@keyframes zooming {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+span{
+    padding: 10px;
+}
+.griid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 17px;
+    background: white;
+    padding: 20px;
+}
+.shop-1{
+    background: white;
+    font-size: 30px;
+    padding: 30px;
+}

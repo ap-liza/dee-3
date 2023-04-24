@@ -1,0 +1,27 @@
+#Grid{
+    background-color: rgb(182, 177, 171);
+}
+#Grid h4{
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 40px;
+    padding: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 16px;
+    
+    
+}
+#immg{
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+#immg:hover{
+    animation: zoom 1s forwards;
+    opacity: 0.7;
+}
+

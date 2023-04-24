@@ -1,0 +1,46 @@
+.blog{
+    background-color: white;
+}
+#im{
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+.ggrid-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    grid-gap: 16px;
+}
+#blog-post1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(182, 177, 171);
+    
+}
+#blog-post1:hover{
+    animation: zoomi 1s ease-out;
+}
+@keyframes zoomi {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+#blog-post1 a{
+    text-decoration: none;
+    color: Black;
+    font-size: 40px;
+    padding: 30px;
+}
+#blog-post1 a:hover{
+    text-decoration: underline;
+}
+#blogg{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
